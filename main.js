@@ -17,7 +17,9 @@ client.on("qr", qr => {
     qrcode.generate(qr, {small: true} );
 })
 
-client.on('message', message => {
+client.on('message', async message => {
+    const hptaTodo = await message.getChat();
+    console.log(hptaTodo.isGroup)
 	console.log(message.body);
 });
 client.on('message', message => {
