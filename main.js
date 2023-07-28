@@ -26,6 +26,9 @@ client.on('message', message => {
 	if(message.body === '!ping') {
 		client.sendMessage(message.from, 'pong');
 	}
+    if(message.body === '!calendario'){
+        client.sendMessage(message.from, 'Info del calendario')
+    }
 });
  
 client.initialize();
