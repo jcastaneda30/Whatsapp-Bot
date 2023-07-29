@@ -26,6 +26,18 @@ client.on('message', message => {
 	if(message.body === '!ping') {
 		client.sendMessage(message.from, 'pong');
 	}
+    if(message.body === '!calendario') {
+		client.sendMessage(message.from, 'info de calendario');
+	}
+    if(message.body === '!matricula0') {
+		client.sendMessage(message.from, 'info de matricula 0');
+	}
+    if(message.body === '!solicitudes') {
+		client.sendMessage(message.from, 'info de solicitudes');
+	}
+    if(message.body === '!bienestar') {
+		client.sendMessage(message.from, 'info de bienestar');
+	}
 });
  
 client.initialize();
