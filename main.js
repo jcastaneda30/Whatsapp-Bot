@@ -1,6 +1,6 @@
 const qrcode = require('qrcode-terminal');
 const fs = require("fs")
-const { Client, LocalAuth } = require('whatsapp-web.js');
+const { Client, LocalAuth, MessageMedia} = require('whatsapp-web.js');
 
 const client = new Client({
      authStrategy: new LocalAuth({
@@ -22,12 +22,21 @@ client.on('message', async message => {
     console.log(hptaTodo.isGroup)
 	console.log(message.body);
 });
-client.on('message', message => {
+client.on('message', async message => {
+	const chat = await message.getChat();
+
 	if(message.body === '!ping') {
-		client.sendMessage(message.from, 'pong');
+		//client.sendMessage(message.from, 'pong');
+		const currentTimestampInSeconds = Math.floor(Date.now() / 1000);
+		console.log("Unix timestamp actual:", currentTimestampInSeconds);
+		console.log(chat.timestamp)
+		chat.sendSeen()
+		chat.markUnread()
 	}
+
     if(message.body === '!calendario') {
-		client.sendMessage(message.from, 'info de calendario');
+		const media = await MessageMedia.fromUrl('https://www.formatpdf.com/wp-content/uploads/2023/04/Archivo-PDF-e-blanco.pdf');
+		client.sendMessage(message.from, media);
 	}
     if(message.body === '!matricula0') {
 		client.sendMessage(message.from, 'info de matricula 0');
@@ -39,7 +48,11 @@ client.on('message', message => {
 		client.sendMessage(message.from, 'info de bienestar');
 	}
 });
- 
+
+
+
+
+
 client.initialize();
 
 

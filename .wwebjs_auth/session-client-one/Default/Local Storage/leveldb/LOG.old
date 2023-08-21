@@ -1,2 +1,3 @@
-2023/07/28-11:44:20.952 2c98 Creating DB C:\Users\monic\OneDrive\Documentos\GitHub\Whatsapp-Bot\.wwebjs_auth\session-client-one\Default\Local Storage\leveldb since it was missing.
-2023/07/28-11:44:21.042 2c98 Reusing MANIFEST C:\Users\monic\OneDrive\Documentos\GitHub\Whatsapp-Bot\.wwebjs_auth\session-client-one\Default\Local Storage\leveldb/MANIFEST-000001
+2023/08/20-20:59:16.750 24dc Reusing MANIFEST C:\Users\PD\Documents\GitHub\Whatsapp-Bot\.wwebjs_auth\session-client-one\Default\Local Storage\leveldb/MANIFEST-000001
+2023/08/20-20:59:16.751 24dc Recovering log #3
+2023/08/20-20:59:16.751 24dc Reusing old log C:\Users\PD\Documents\GitHub\Whatsapp-Bot\.wwebjs_auth\session-client-one\Default\Local Storage\leveldb/000003.log 
