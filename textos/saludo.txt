@@ -1,0 +1,11 @@
+¡Hola! 👋🤖 ¡Soy Ada,el bot de la representación de Ingeniería de Sistemas e Informática! 💻📚 
+Estoy acá para ayudarte con las dudas que tengas. A continuación te presento algunas opciones, por favor, responde solo con el número, sin puntos u otro carácter. 
+
+1.¿Necesitas ver la malla curricular?
+2.Calendario académico: Acá puedes ver todas las fechas importantes del semestre incluyendo fechas para hacer solicitudes
+3.Contacto de la secretaría del departamento, en caso de que tengas alguna duda administrativa con alguna materia y link para saber qué profesores pertenecen a este departamento
+4.Solicitud de doble titulación
+5.Rutas intercampus
+6.Semana Universitaria
+7.Grupos de Whatsapp
+8.¿Tienes otra duda? Las repres te ayudan en esta opción

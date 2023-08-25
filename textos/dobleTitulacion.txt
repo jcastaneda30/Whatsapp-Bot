@@ -1,0 +1,3 @@
+Se puede hacer la solicitud para el periodo académico 2024-1S hasta la cuarta semana del semestre (01 de septiembre)
+Si desea realizar la solicitud a una carrera de la Facultad de Minas, lo puede hacer a través del siguiente link: http://uasminas.medellin.unal.edu.co:8080/solicitud/solicitudes/partials/dobletitulacion/dobletitulacion.html
+Para el resto de facultades lo debe hacer a través del SIA en la opción de “Doble Titulación”

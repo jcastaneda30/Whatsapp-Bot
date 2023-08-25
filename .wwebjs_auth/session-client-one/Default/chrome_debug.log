@@ -1,3 +1,0 @@
-[0820/210829.820:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
-[0820/210829.820:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
-[0820/210852.956:INFO:CONSOLE(22)] "Warning: TT: undefined function: 32", source: https://web.whatsapp.com/pdf.worker.96d1bc1f3d0105cd5a81bae7a9dad228.js (22)
